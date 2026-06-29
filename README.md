@@ -117,42 +117,6 @@ Then open the local URL Streamlit prints in your terminal (usually `http://local
 
 ---
 
-## Visualizations
-
-### Exploratory Data Analysis
-
-**Target Variable Distribution**
-
-![Target Distribution](images/target_distribution.png)
-
-**Numerical Feature Distributions**
-
-![Numerical Distributions](images/numerical_distributions.png)
-
-**Numerical Features vs. Credit Risk**
-
-![Boxplots by Target](images/boxplots_by_target.png)
-
-**Correlation Heatmap**
-
-![Correlation Heatmap](images/correlation_heatmap.png)
-
-### Model Evaluation
-
-**Confusion Matrices**
-
-![Confusion Matrices](images/confusion_matrices.png)
-
-**Model Comparison**
-
-![Model Comparison](images/model_comparison.png)
-
-**Feature Importance (Random Forest)**
-
-![Feature Importance](images/feature_importance.png)
-
----
-
 ## The Streamlit App
 
 `app/app.py` is a clean, professional-looking web interface where a user can enter:

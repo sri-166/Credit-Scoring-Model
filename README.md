@@ -109,7 +109,7 @@ Then open the local URL Streamlit prints in your terminal (usually `http://local
 |---|---|---|---|---|
 | Logistic Regression | 79.5% | 71.0% | 70.0% | 70.5% |
 | Decision Tree | 77.0% | 71.4% | 57.1% | 63.5% |
-| **Random Forest (Best ✅)** | **84.5%** | **82.5%** | **70.7%** | **76.2%** |
+| **Random Forest (Best)** | **84.5%** | **82.5%** | **70.7%** | **76.2%** |
 
 **Random Forest** was automatically selected as the best model based on test-set accuracy, and is the model saved and used by the Streamlit app.
 
@@ -128,7 +128,7 @@ Then open the local URL Streamlit prints in your terminal (usually `http://local
 - Number of Existing Loans
 - Payment History (Poor / Average / Good)
 
-After clicking **Predict Credit Risk**, the app loads the saved model, scaler, and encoder, processes the input the same way it was processed during training, and clearly displays whether the customer is predicted to be **Low Risk ✅** or **High Risk ⚠️**, along with the model's confidence percentage.
+After clicking **Predict Credit Risk**, the app loads the saved model, scaler, and encoder, processes the input the same way it was processed during training, and clearly displays whether the customer is predicted to be **Low Risk** or **High Risk**, along with the model's confidence percentage.
 
 ---
 
